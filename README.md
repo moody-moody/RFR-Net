@@ -157,12 +157,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Results and Notes
 
-- ![RFR-Net在SOTS-Indoor、SOTS-Outdoor、DenseHaze、OHAZE、NHHAZE结果]
-  (dehazeResult.png)
-- ![RFR-Net在Haze4K数据集中效果]
-  (dehazeResult2.png)
+- ![RFR-Net在SOTS-Indoor、SOTS-Outdoor、DenseHaze、OHAZE、NHHAZE结果](dehazeResult.png)
+- ![RFR-Net在Haze4K数据集中效果](dehazeResult2.png)
 - 说明：SOTS-Outdoor 的评测是在 `RFR-L (Large)` 模型下进行；其余数据集/结果的评测均使用 `RFR-B (Base)` 模型。
-- ![RFR-Net在CSD、Snow100K、SRRS去雪数据集中效果]
-(desnowResult.png)
+- ![RFR-Net在CSD、Snow100K、SRRS去雪数据集中效果](desnowResult.png)
 
 **Note:** SOTS-Outdoor was evaluated using the `RFR-L (Large)` model; other evaluations used the `RFR-B (Base)` model.
