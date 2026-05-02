@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyCharm
+.idea/
+
+# Data & weights
+datasets/
+analysis_results/
+.claude/
+results/
+new_model/
+OHAZE/
+temp_analysis/
+wavelet_vis/
+Model/
+DenseHaze/
+NHHAZE/
+test_psnr/
+test_snow/
+*.pth
+*.pt
+*.pkl
+*.onnx
+*.h5
+*.ckpt
+
+# figure
+*.png
+*.jpg
+*.tif
+
+# Logs & Results
+logs/
+runs/
+*.csv
+
+# Ablation experiment files
+*([0-9]).py
+*([0-9][0-9]).py
+
+# OS
+.DS_Store
+*.log
+*.txt
+
+analyze_detail_difference.py
+analyze_detail_difference_simple.py
+calculate_para_flops.py
+calculate_psnr.py
+DWT_Result.py
+Frequency.py
